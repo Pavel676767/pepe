@@ -1,0 +1,41 @@
+table {
+    border-collapse: collage;
+    margin-left: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table td:nth-child(2),
+table td:nth-child(3)  {
+    text-align: center;
+}
+
+.student_marks th, td {
+    border: 5px solid black;
+    padding: 8px;
+    background-color: orange;
+}
+
+.par {
+    padding: 12px;
+    width: 600px;
+}
+
+.red {
+    background-color: rgb(109, 37, 37);
+}
+
+.yellow {
+    background-color: rgb(134, 121, 46);
+}
+
+.green {
+    background-color: rgb(40, 97, 22);
+}
+
+.flip_vert {
+    transform: scaleY(-1);
+}
